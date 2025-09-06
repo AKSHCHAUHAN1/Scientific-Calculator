@@ -52,13 +52,13 @@ To run this project locally, follow these steps:
 1.  Clone the repository:
 
     ``` bash
-    git clone https://github.com/your-username/scientific-calculator.git
+    git clone https://github.com/AKSHCHAUHAN1/Scientific-Calculator.git
     ```
 
 2.  Navigate to the project directory:
 
     ``` bash
-    cd scientific-calculator
+    cd Scientific-Calculator
     ```
 
 3.  Open the application:\
