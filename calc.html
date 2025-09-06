@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="icons8-calculator-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="header">
+            <button class="history">HISTORY</button>
+        </div>
+            <div id="output" class="output-display"></div>
+        <div class="button-grid">
+            <button class="sci" id="sin-btn">sin</button>
+            <button class="sci" id="cos-btn">cos</button>
+            <button class="sci" id="tan-btn">tan</button>
+            <button class="sci" data-function-type="rad-deg">rad</button>
+            <button class="sci active" data-function-type="rad-deg">deg</button>
+
+            <button class="sci" id="log-btn">log</button>
+            <button class="sci" id="ln-btn">ln</button>
+            <button class="sci">(</button>
+            <button class="sci">)</button>
+            <button class="sci" id="inv-btn">inv</button>
+
+            <button class="sci" id="fact-btn">!</button>
+            <button class="operator">AC</button>
+            <button class="operator">%</button>
+            <button class="operator">⌫</button>
+            <button class="operator">÷</button>
+
+            <button class="sci">^</button>
+            <button class="numbers">7</button>
+            <button class="numbers">8</button>
+            <button class="numbers">9</button>
+            <button class="operator">X</button>
+
+            <button class="sci" id="sqrt-x2-btn">√</button>
+            <button class="numbers">4</button>
+            <button class="numbers">5</button>
+            <button class="numbers">6</button>
+            <button class="operator">-</button>
+
+            <button class="sci">π</button>
+            <button class="numbers">1</button>
+            <button class="numbers">2</button>
+            <button class="numbers">3</button>
+            <button class="operator">+</button>
+
+            <button class="sci">e</button>
+            <button class="numbers">00</button>
+            <button class="numbers">0</button>
+            <button class="numbers">.</button>
+            <button class="answer">=</button>
+        </div>
+    </div>
+
+    <div id="history-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Calculation History</h2>
+            <ul id="history-list-ul"></ul>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
